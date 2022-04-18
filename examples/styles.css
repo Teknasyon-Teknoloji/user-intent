@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#app {
+    position: relative;
+    padding: 1rem;
+}
+p {
+    display: block;
+    margin-top: 0;
+}
+p:last-child {
+    margin-bottom: 0;
+}
+p:nth-child(7) {
+    background-color: red;
+}
+.percentage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    color: white;
+    z-index: 1;
+}
+.percentage > * {
+    position: absolute;
+    right: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.percentage > *:nth-child(1) {
+    top: 10%;
+}
+.percentage > *:nth-child(2) {
+    top: 20%;
+}
+.percentage > *:nth-child(3) {
+    top: 30%;
+}
+.percentage > *:nth-child(4) {
+    top: 40%;
+}
+.percentage > *:nth-child(5) {
+    top: 50%;
+}
+.percentage > *:nth-child(6) {
+    top: 60%;
+}
+.percentage > *:nth-child(7) {
+    top: 70%;
+}
+.percentage > *:nth-child(8) {
+    top: 80%;
+}
+.percentage > *:nth-child(9) {
+    top: 90%;
+}
+.percentage > *:nth-child(10) {
+    top: 100%;
+}
