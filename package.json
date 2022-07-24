@@ -1,5 +1,5 @@
 {
-    "name": "user-intent",
+    "name": "@teknasyon/user-intent",
     "version": "1.0.0",
     "description": "Capture user intent to trigger a callback.",
     "main": "dist/cjs/index.js",
